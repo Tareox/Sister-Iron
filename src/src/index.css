@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body,
+html {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.font-brand {
+  font-family: "Bagel Fat One", cursive;
+  letter-spacing: -0.01em;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.app-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 0% 0%, rgba(251, 146, 60, 0.18), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 100% 30%, rgba(34, 211, 238, 0.18), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(168, 85, 247, 0.15), transparent 60%),
+    radial-gradient(ellipse 50% 50% at 100% 100%, rgba(16, 185, 129, 0.15), transparent 60%),
+    linear-gradient(180deg, #fef6ec 0%, #fef0f0 50%, #faf5ff 100%);
+}
+
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
