@@ -1,0 +1,18 @@
+{
+  "name": "Sister Iron",
+  "short_name": "Sister Iron",
+  "description": "Emma's 4-day recomp training plan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef6ec",
+  "theme_color": "#fb923c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
